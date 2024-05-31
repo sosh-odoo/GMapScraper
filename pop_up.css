@@ -1,0 +1,74 @@
+#header-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#form-section{
+    background-color: gray;
+    width: 100%;
+}
+
+#ext_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+.ext_content{
+    padding: auto;
+    text-align: center;
+}
+
+/* Form */
+#scraper_form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1rem;
+    font-weight: 600;
+    label{
+        color: white;
+    }
+    input{
+        border: 0;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+
+.scraper_formButton{
+    margin-top: 10px;
+    font-weight: 700;
+    padding: 0.4rem;
+    background-color: purple;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+#query-head-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid gray;
+    color: white;
+    background-color: black;
+}
+
+.gear-btn{
+    color: white;
+    font-size: large;
+    border: 0;
+    background: 0;
+    cursor: pointer;
+}

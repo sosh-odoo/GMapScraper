@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Google Maps Scraper",
+    "description": "Scrape data from Google map search",
+    "version": "1.0",
+    "action": {
+        "default_popup": "window.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": ["*://www.google.com/maps/*"],
+            "css": ["extension.css","pop_up.css"]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}

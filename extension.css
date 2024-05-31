@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fetchData {
+    background-color:blueviolet;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    position: absolute;
+    left: 100%;
+}
+#fetchData:hover{
+    cursor: pointer;
+}

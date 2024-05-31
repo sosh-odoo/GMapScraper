@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="extension.css">
+    <link rel="stylesheet" href="pop_up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="background.js"></script>
+</head>
+
+<body id="ext_body">
+    <section id="header-section">
+        <h3>Google Maps Scrape - Odoo</h3>
+        <div class="ext_content">Extension is enabled for google maps</div>
+    </section>
+    <section id="form-section">
+        <form id="scraper_form">
+            <label for="username">Username:</label>
+            <input id="username" name="username" value="" />
+
+            <label for="api_key">API key:</label>
+            <input id="api_key" name="api_key" value="" />
+
+            <label for="base_url_with_port">Baseurl with port:</label>
+            <input id="base_url_with_port" name="base_url_with_port" value="" />
+
+            <button type="submit" class="scraper_formButton" id="scraper_form_submitButton">Submit</button>
+        </form>
+        
+    </section>
+    <section id="query-head-section">
+        <div class="query-heading">
+            <h3>Queries:</h3>
+        </div>
+        <div>
+            <button class="gear-btn" id="get_queries_button"><i class="fa fa-gear"></i></button>
+        </div>
+    </section>
+    <section id="query-section">
+        <span>Click gear to fetch queries...</span>
+    </section>
+</body>
+
+</html>
